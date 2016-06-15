@@ -15,3 +15,4 @@ wget --no-check-certificate "%%b" -P "%1"
 del /q output.log 
 )
 )
+echo for /f %%%%a in ('dir /b "%%~dp0HandBrake-*-x86_64-*.exe"') do start /wait "" "%%~dp0%%%%a" /S >> "%1\FirstRun.bat"
