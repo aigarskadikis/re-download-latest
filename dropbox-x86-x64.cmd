@@ -1,1 +1,1 @@
-wget --no-check-certificate "https://www.dropbox.com/download?full=1&plat=win"
+wget --no-check-certificate "https://www.dropbox.com/download?full=1&plat=win" -P %1

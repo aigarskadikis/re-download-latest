@@ -1,1 +1,1 @@
-for /f "tokens=*" %%a in ('wget --no-check-certificate -qO- "https://www.virtualbox.org/wiki/Downloads" ^| sed "s/\d034/\n/g" ^| grep "exe" ^| head -1') do wget --no-check-certificate %%a
+for /f "tokens=*" %%a in ('wget --no-check-certificate -qO- "https://www.virtualbox.org/wiki/Downloads" ^| sed "s/\d034/\n/g" ^| grep "exe" ^| head -1') do wget --no-check-certificate %%a -P %1

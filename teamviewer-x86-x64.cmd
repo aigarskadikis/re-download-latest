@@ -1,1 +1,1 @@
-wget http://download.teamviewer.com/download/TeamViewer_Setup.exe
+wget http://download.teamviewer.com/download/TeamViewer_Setup.exe -P %1
